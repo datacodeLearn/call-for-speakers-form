@@ -169,6 +169,8 @@
     .form-row textarea {
       width: 370px;
       height: initial;
+      border: 1px solid  #74b8e6;
+
     }
     
     .form-row label {
