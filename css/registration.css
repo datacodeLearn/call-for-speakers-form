@@ -56,7 +56,7 @@
   .form-row input[type='text'],
   .form-row input[type='email']{
     background-color: #FFFFFF;
-    border: 1px solid #0b78c0;
+    border: 1px solid #74b8e6;
     border-radius: 3px;
     width: 100%;
     padding: 7px;
@@ -107,7 +107,7 @@
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 14px;
     
-    border: 1px solid  #0b78c0;
+    border: 1px solid  #74b8e6;
     border-radius: 3px;
     
     min-height: 200px;
