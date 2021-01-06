@@ -152,6 +152,7 @@
     .speaker-form-header, 
     .speaker-form {
       width: 600px;
+      font-size: 16px;
     }
     
     .form-row {
@@ -203,15 +204,16 @@
   @media screen and (max-width: 1024px) {
     .speaker-form-header, 
     .speaker-form {
-      width: 80%;
+      width: 90%;
       font-size: 30px;
     }
     .speaker-form-header h1 {
       font-size: 40px;
     }
     .banner-img{
+      margin: 0 auto;
 height: 300px;
-width: 820px;    }
+width: 880px;    }
 
     .form-row {
       flex-direction: row;
