@@ -18,7 +18,7 @@
     <form action='' method='get' class='speaker-form'>
       <div class='form-row'>
         <label for='full-name'>Name</label>
-        <input id='full-name' name='full-name' type='text' />
+        <input id='full-name' name='full-name' type='text' placeholder='Enter your answer' />
       </div>
       
       <div class='form-row'>
@@ -30,11 +30,19 @@
       </div>
       <div class='form-row'>
         <label >Phone</label>
-        <input id='Phone'  type='text' />
+        <input id='Phone'  type='text' placeholder='Enter your answer' />
       </div>
+      <fieldset class='legacy-form-row'>
+        <legend>Gender</legend>
+        <input id='Gender' name='Female' type='radio' value='Female'  />
+        <label for='Female' class='radio-label'>Female</label>
+        
+        <input id='Gender' name='Male' type='radio' value='Male' />
+        <label for='Male' class='radio-label'>Male</label>
+      </fieldset>
       <div class='form-row'>
         <label >City </label>
-        <input id='City'  type='text' />
+        <input id='City'  type='text'  />
       </div>
       <div class='form-row'>
         <label >State </label>
